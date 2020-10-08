@@ -10,8 +10,8 @@ namespace Bugscout.Agent.Test
     class Program
     {
 
-        private static Headers.Platform platform = Headers.Platform.MACOS;
-//        private static Headers.Platform platform = Headers.Platform.WIN;
+        //private static Headers.Platform platform = Headers.Platform.MACOS;
+        private static Headers.Platform platform = Headers.Platform.WIN;
 
         private unsafe static JitHook CreateSut(String methodNameFilter, Type monitorType = null)
         {

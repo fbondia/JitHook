@@ -52,6 +52,7 @@ namespace Bugscout.Agent.Hook
 			getVersionIdentifier(this.jitVTable, out this.jitVersion);
 
 
+			// pre-compile hook methods before jit instrumentalization
     		String[] methods = new string[] { "InstallHook", "Stop", "HookedCompileMethodDelegate" };
 
 			foreach (String methodName in methods)
@@ -108,8 +109,8 @@ namespace Bugscout.Agent.Hook
 				}
 
 
-				//Headers.ProtectionWindows protection = (Headers.ProtectionWindows)Enum.Parse(typeof(Headers.Protection), oldProtection.ToString());
-				Headers.ProtectionPosix protection = (Headers.ProtectionPosix)Enum.Parse(typeof(Headers.Protection), oldProtection.ToString());
+				Headers.ProtectionWindows protection = (Headers.ProtectionWindows)Enum.Parse(typeof(Headers.Protection), oldProtection.ToString());
+				//Headers.ProtectionPosix protection = (Headers.ProtectionPosix)Enum.Parse(typeof(Headers.Protection), oldProtection.ToString());
 
 				this.realCompileMethod = (Native.CompileMethodDeclaration)Marshal.GetDelegateForFunctionPointer(Marshal.ReadIntPtr(p), typeof(Native.CompileMethodDeclaration));
 
@@ -123,8 +124,8 @@ namespace Bugscout.Agent.Hook
 				IntPtr realCompileMethodPointer = Marshal.GetFunctionPointerForDelegate(this.realCompileMethod);
 				IntPtr hookedCompileMethodPointer = Marshal.GetFunctionPointerForDelegate(this.hookedCompileMethod);
 
-				Marshal.WriteIntPtr(p, realCompileMethodPointer);
-				//Marshal.WriteIntPtr(p, hookedCompileMethodPointer);
+				//Marshal.WriteIntPtr(p, realCompileMethodPointer);
+				Marshal.WriteIntPtr(p, hookedCompileMethodPointer);
 
 				native.VirtualProtect(p, (uint)IntPtr.Size, Headers.Protection.READ_WRITE, ref oldProtection);
 			}
