@@ -50,5 +50,11 @@ namespace MockLibrary
         {
             Console.WriteLine("Enum: " + e.ToString());
         }
+
+        public override string ToString()
+        {
+            return this._message;
+        }
+
     }    
 }

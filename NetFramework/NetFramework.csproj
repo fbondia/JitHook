@@ -34,8 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.2\lib\net472\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +59,10 @@
     <Compile Include="Runtime\MethodFilter.cs" />
     <Compile Include="Runtime\RuntimeDispatcher.cs" />
     <Compile Include="Runtime\TrampolineMethodInfo.cs" />
+    <Compile Include="Test\ProgramAnathema.cs" />
+    <Compile Include="Test\ProgramHarmony.cs" />
+    <Compile Include="Test\ProgramReplaceMethod.cs" />
+    <Compile Include="Test\MethodHelper.cs" />
     <Compile Include="Test\MockLibrary\Classes.cs" />
     <Compile Include="Test\MockLibrary\MyEnum.cs" />
     <Compile Include="Test\MockLibrary\MyStruct.cs" />
@@ -68,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

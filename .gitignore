@@ -7,3 +7,5 @@ Bugscout.Agent.Runtime/obj/
 Bugscout.Agent.Test/bin/
 Bugscout.Agent.Test/obj/
 NetFramework/bin/
+packages/
+.vs/

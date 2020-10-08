@@ -22,5 +22,10 @@ namespace MockLibrary
                 base.Speak();
             }
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + " from super";
+        }
     }
 }
