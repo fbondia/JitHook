@@ -1,0 +1,6 @@
+D:\Source\Bugscout\labs\JitHook\NetFramework\bin\Debug\NetFramework.exe.config
+D:\Source\Bugscout\labs\JitHook\NetFramework\bin\Debug\NetFramework.exe
+D:\Source\Bugscout\labs\JitHook\NetFramework\bin\Debug\NetFramework.pdb
+D:\Source\Bugscout\labs\JitHook\NetFramework\obj\Debug\NetFramework.csproj.CoreCompileInputs.cache
+D:\Source\Bugscout\labs\JitHook\NetFramework\obj\Debug\NetFramework.exe
+D:\Source\Bugscout\labs\JitHook\NetFramework\obj\Debug\NetFramework.pdb

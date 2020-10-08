@@ -1,0 +1,9 @@
+Bugscout.Agent.Core/bin/
+Bugscout.Agent.Core/obj/
+Bugscout.Agent.Hook/bin/
+Bugscout.Agent.Hook/obj/
+Bugscout.Agent.Runtime/bin/
+Bugscout.Agent.Runtime/obj/
+Bugscout.Agent.Test/bin/
+Bugscout.Agent.Test/obj/
+NetFramework/bin/

@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugscout.Agent.Core", "Bugscout.Agent.Core\Bugscout.Agent.Core.csproj", "{6B423FA3-B099-4743-BF2A-F49C7F40D986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bugscout.Agent.Core", "Bugscout.Agent.Core\Bugscout.Agent.Core.csproj", "{6B423FA3-B099-4743-BF2A-F49C7F40D986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugscout.Agent.Hook", "Bugscout.Agent.Hook\Bugscout.Agent.Hook.csproj", "{5A1ED469-B9B7-470A-948D-337281EE19AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bugscout.Agent.Hook", "Bugscout.Agent.Hook\Bugscout.Agent.Hook.csproj", "{5A1ED469-B9B7-470A-948D-337281EE19AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugscout.Agent.Runtime", "Bugscout.Agent.Runtime\Bugscout.Agent.Runtime.csproj", "{186FF484-65B6-4006-AF0B-25BFBFE782A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bugscout.Agent.Runtime", "Bugscout.Agent.Runtime\Bugscout.Agent.Runtime.csproj", "{186FF484-65B6-4006-AF0B-25BFBFE782A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bugscout.Agent.Test", "Bugscout.Agent.Test\Bugscout.Agent.Test.csproj", "{680DC094-5B96-44ED-A314-2599852EB2F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bugscout.Agent.Test", "Bugscout.Agent.Test\Bugscout.Agent.Test.csproj", "{680DC094-5B96-44ED-A314-2599852EB2F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFramework", "NetFramework\NetFramework.csproj", "{2F5C31DF-4964-48DB-8C4D-89372FF798D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{680DC094-5B96-44ED-A314-2599852EB2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{680DC094-5B96-44ED-A314-2599852EB2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{680DC094-5B96-44ED-A314-2599852EB2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5C31DF-4964-48DB-8C4D-89372FF798D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5C31DF-4964-48DB-8C4D-89372FF798D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5C31DF-4964-48DB-8C4D-89372FF798D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5C31DF-4964-48DB-8C4D-89372FF798D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03873AA3-DEC1-4443-AD0D-62B6BC2D6502}
 	EndGlobalSection
 EndGlobal
