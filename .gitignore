@@ -9,3 +9,4 @@ Bugscout.Agent.Test/obj/
 NetFramework/bin/
 packages/
 .vs/
+NetFramework/obj
