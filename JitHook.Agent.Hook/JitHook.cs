@@ -4,9 +4,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-using Bugscout.Agent.Core;
+using JitHook.Agent.Core;
 
-namespace Bugscout.Agent.Hook
+namespace JitHook.Agent.Hook
 {
 
 

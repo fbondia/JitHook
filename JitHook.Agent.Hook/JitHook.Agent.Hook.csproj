@@ -13,6 +13,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bugscout.Agent.Core\Bugscout.Agent.Core.csproj" />
+    <ProjectReference Include="..\JitHook.Agent.Core\JitHook.Agent.Core.csproj" />
   </ItemGroup>
 </Project>

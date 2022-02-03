@@ -2,9 +2,9 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-using Bugscout.Agent.Core;
+using JitHook.Agent.Core;
 
-namespace Bugscout.Agent.Runtime
+namespace JitHook.Agent.Runtime
 {
 
 	[Serializable]

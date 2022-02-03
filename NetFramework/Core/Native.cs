@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Bugscout.Agent.Core
+namespace JitHook.Agent.Core
 {
 
 	public static class Native

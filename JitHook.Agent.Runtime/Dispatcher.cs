@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
-namespace Bugscout.Agent.Runtime
+namespace JitHook.Agent.Runtime
 {
 
 	public static class Dispatcher

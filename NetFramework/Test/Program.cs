@@ -1,16 +1,16 @@
 ﻿using System;
 using MockLibrary;
 
-using Bugscout.Agent.Core;
-using Bugscout.Agent.Hook;
-using Bugscout.Agent.Runtime;
+using JitHook.Agent.Core;
+using JitHook.Agent.Hook;
+using JitHook.Agent.Runtime;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Policy;
 using System.Security.Cryptography;
 using System.Linq;
 
-namespace Bugscout.Agent.Test
+namespace JitHook.Agent.Test
 {
     class Program
     {

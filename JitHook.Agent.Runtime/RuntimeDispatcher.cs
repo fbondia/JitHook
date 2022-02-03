@@ -8,16 +8,16 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 
-using Bugscout.Agent.Core;
+using JitHook.Agent.Core;
 
-namespace Bugscout.Agent.Runtime
+namespace JitHook.Agent.Runtime
 {
 
 	[Serializable]
 	public class RuntimeDispatcher
 	{
 
-		private String runtimeDispatcherClass = "Bugscout.Agent.Runtime.Dispatcher";
+		private String runtimeDispatcherClass = "JitHook.Agent.Runtime.Dispatcher";
 		private String runtimeDispatcherMethod = "DispatchCallback";
 
 		readonly NativeInterface native;

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Bugscout.Agent.Runtime
+namespace JitHook.Agent.Runtime
 {
 
 	[Serializable]

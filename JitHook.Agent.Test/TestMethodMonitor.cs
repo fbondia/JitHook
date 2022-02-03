@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bugscout.Agent.Test
+namespace JitHook.Agent.Test
 {
     public class TestMethodMonitor
     {

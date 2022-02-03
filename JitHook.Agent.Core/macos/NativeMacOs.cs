@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bugscout.Agent.Core
+namespace JitHook.Agent.Core
 {
     public class NativeMacOs: NativeInterface
     {

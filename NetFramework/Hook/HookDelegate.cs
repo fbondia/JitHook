@@ -1,8 +1,8 @@
 ﻿using System;
 
-using Bugscout.Agent.Core;
+using JitHook.Agent.Core;
 
-namespace Bugscout.Agent.Hook
+namespace JitHook.Agent.Hook
 {
 
     [Serializable]

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bugscout.Agent.Test
+namespace JitHook.Agent.Test
 {
 
     public class ProgramHarmony
@@ -13,7 +13,7 @@ namespace Bugscout.Agent.Test
 
         public static void Execute()
         {
-            var harmony = new Harmony("xxx.bugscout.test");
+            var harmony = new Harmony("xxx.JitHook.test");
 
             var mOriginal = AccessTools.Method(typeof(Console), "ReadKey");
             var mPrefix = SymbolExtensions.GetMethodInfo(() => MyPrefix());

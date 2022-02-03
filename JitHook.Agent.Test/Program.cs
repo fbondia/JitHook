@@ -1,11 +1,11 @@
 ﻿using System;
 using MockLibrary;
 
-using Bugscout.Agent.Core;
-using Bugscout.Agent.Hook;
-using Bugscout.Agent.Runtime;
+using JitHook.Agent.Core;
+using JitHook.Agent.Hook;
+using JitHook.Agent.Runtime;
 
-namespace Bugscout.Agent.Test
+namespace JitHook.Agent.Test
 {
     class Program
     {
